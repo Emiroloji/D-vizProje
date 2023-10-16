@@ -106,11 +106,11 @@ namespace Döviz_proje
         private void CreateMonthlyChart()
         {
 
-            // Verileri almak için SQL sorgularınızı kullanın
+            // Verileri almak için SQL sorguları
             string queryUSD = "SELECT tarih, değer FROM DövizKurlari WHERE kur1 = 'USD' AND kur2 = 'TL' ORDER BY tarih";
             string queryEUR = "SELECT tarih, değer FROM DövizKurlari WHERE kur1 = 'EUR' AND kur2 = 'TL' ORDER BY tarih";
 
-            // Verileri veritabanından alın
+            // Verileri veritabanı
             DataTable dtUSD = new DataTable();
             DataTable dtEUR = new DataTable();
 
@@ -128,11 +128,11 @@ namespace Döviz_proje
 
             
 
-            // Serileri oluşturun
+            // Seriler
             chart.Series.Add("TL-USD");
             chart.Series.Add("TL-EUR");
 
-            // TL-USD verilerini grafiğe ekleyin
+            // TL-USD verilerini grafiğe ekle
             foreach (DataRow row in dtUSD.Rows)
             {
                 DateTime tarih = (DateTime)row["tarih"];
@@ -140,7 +140,7 @@ namespace Döviz_proje
                 chart.Series["TL-USD"].Points.AddXY(tarih.ToString("MMMM yyyy"), deger);
             }
 
-            // TL-EUR verilerini grafiğe ekleyin
+            // TL-EUR verilerini grafiğe ekle
             foreach (DataRow row in dtEUR.Rows)
             {
                 DateTime tarih = (DateTime)row["tarih"];
@@ -148,15 +148,16 @@ namespace Döviz_proje
                 chart.Series["TL-EUR"].Points.AddXY(tarih.ToString("MMMM yyyy"), deger);
             }
 
-            // Grafik özelliklerini ayarlayın
+            // Grafik özellikleri
             chart.Titles.Add("Aylık Grafiği");
             chart.ChartAreas[0].AxisX.Title = "Aylar";
             chart.ChartAreas[0].AxisY.Title = "Değerler";
 
-            // Grafiği görüntüleyin
+           
             chart.Invalidate();
         }
     }
 }
+
 
 
