@@ -1,0 +1,10 @@
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\bin\Debug\Döviz_proje.exe.config
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\bin\Debug\Döviz_proje.exe
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\bin\Debug\Döviz_proje.pdb
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.csproj.AssemblyReference.cache
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.Form1.resources
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.Properties.Resources.resources
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.csproj.GenerateResource.cache
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.csproj.CoreCompileInputs.cache
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.exe
+C:\Users\emirc\source\repos\Döviz_proje\Döviz_proje\obj\Debug\Döviz_proje.pdb
